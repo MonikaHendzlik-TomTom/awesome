@@ -31,7 +31,7 @@ func CreateCSV(c *gin.Context) {
 	csvStruct = [][]string{
 	{"name", "address", "phone"},
 	{"Ram","Tokyo","1236524"},
-	{"Shaym","Beijing","8575675484"},
+	{"Kuba","lodz","8575675484"},
 }
 b := new(bytes.Buffer)
 	w := csv.NewWriter(b)
